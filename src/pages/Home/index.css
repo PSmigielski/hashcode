@@ -1,7 +1,17 @@
-.Home{
-    min-height: calc(100vh - 168px);
+.home{
+    height: calc(100vh - 168px);
     width: 100%;
     background-color: var(--background);
     color: var(--secondary-text);
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.home__content{
+    padding-top: 20px;
+    width: 800px;
+    height: 100%;
 }

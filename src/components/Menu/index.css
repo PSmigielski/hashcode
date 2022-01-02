@@ -1,0 +1,40 @@
+.menu{
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    padding-left: 20px;
+    padding-top: 116px;
+    border-right: 1px solid var(--accent);
+    background-color: var(--background);
+}
+.menu__header{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: var(--tertiary-text);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.menu__links{
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+}    
+.menu__link{
+    margin: 3px 0px 3px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: var(--secondary-text);
+    transition: .5s ease-in-out;
+}
+.menu__link:hover{
+    color: var(--cta);
+}
+.menu__link--active {
+    color: var(--cta);
+    text-decoration: underline;
+}
