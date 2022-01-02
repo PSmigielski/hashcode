@@ -1,11 +1,8 @@
 .menu{
-    width: 20%;
-    height: 100vh;
-    position: absolute;
-    top:0px;
-    left: 0px;
-    padding-left: 20px;
-    padding-top: 116px;
+    width: 100%;
+    min-width: 316px;
+    height: 100%;
+    padding: 20px 0px 0px 30px;
     border-right: 1px solid var(--accent);
     background-color: var(--background);
 }

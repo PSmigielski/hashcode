@@ -1,0 +1,19 @@
+.burger{
+    display: none;
+}
+.buger__strip1, .buger__strip2, .buger__strip3{
+    width: 36px;
+    height: 4px;
+    background-color: var(--cta);
+}
+.buger__strip2{
+    margin: 8px 0px 8px 0px;  
+}
+@media screen and (max-width: 1548px) {
+    .burger{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
