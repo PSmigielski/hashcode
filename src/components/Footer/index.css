@@ -1,0 +1,10 @@
+.footer{
+    width: 100vw;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-text);
+    font-family: 'Poppins', sans-serif;
+}

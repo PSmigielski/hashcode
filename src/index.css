@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --background: #16161D;
+  --primary-text: #F2F2F3;
+  --secondary-text: #CACACE;
+  --tertiary-text: #93939F;
+  --accent: #60606C;
+  --secondary-color:#22222A;
+  --cta: #7575F0;
+}
