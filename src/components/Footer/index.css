@@ -1,13 +1,10 @@
 .footer{
-    width: 100%;
+    width: 100vw;
     height: 72px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--secondary-color);
     color: var(--tertiary-text);
-    font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    position: relative;
-    z-index: 2;
 }
