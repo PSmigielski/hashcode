@@ -15,6 +15,7 @@
 .NotFound__errorName{
     color: var(--primary-text);
     font-size: 72px;
+    margin: 10px 0px 20px 0px;
 }
 .NotFound__button{
     font-family: "Poppins", sans-serif;
