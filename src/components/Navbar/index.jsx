@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Burger from "../Burger";
 import "./index.css";
 const Navbar = () => {
+    
     return (
         <nav className="navbar">
             <div className="navbar__content">

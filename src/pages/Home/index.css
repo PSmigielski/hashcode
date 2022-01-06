@@ -21,6 +21,6 @@
         width: 100%;
     }
     .home__content{
-        max-width: none;
+        max-width: 800px;
     }
 }

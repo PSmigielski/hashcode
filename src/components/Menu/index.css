@@ -1,6 +1,5 @@
 .menu{
     width: 100%;
-    min-width: 316px;
     height: 100%;
     padding: 20px 0px 0px 30px;
     border-right: 1px solid var(--accent);
