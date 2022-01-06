@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { UIContext } from "../../context/UIContext";
 import "./index.css"
-const Burger = () => {
+const Hamburger = () => {
     const uiContext = useContext(UIContext);
     return (
         <button className={uiContext.isMenuOpen ? "hamburger hamburger--active" : "hamburger"} onClick={() => {uiContext.setIsMenuOpen(!uiContext.isMenuOpen)}}>
@@ -12,4 +12,4 @@ const Burger = () => {
     );
 }
 
-export default Burger;
+export default Hamburger;
