@@ -10,7 +10,7 @@ const Menu = () => {
         {algorithms.map( algorithm => (
             <NavLink 
                 className={({isActive}) => isActive ? 'menu__link--active menu__link' : 'menu__link'}
-                to={algorithm.to} 
+                to={`algorithms/${algorithm.to}`} 
                 key={algorithm.to}
             >
                 <span>{algorithm.name}</span>

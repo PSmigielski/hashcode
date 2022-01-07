@@ -1,0 +1,17 @@
+.algorithm{
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    color: var(--secondary-text);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: scroll;
+}
+.algorithm__content{
+    width: 80%;
+    height: 100%;
+    max-width: 800px;
+    max-height: fit-content;
+}
