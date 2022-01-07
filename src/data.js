@@ -1,15 +1,15 @@
 const algorithms = [
     {
-        name: "Fibbonacci",
-        to: "fibbonacci",
+        name: "Fibonacci",
+        to: "fibonacci",
         code: 
-`bool pierwsza_o(int n){
-    if(n < 2)
-        return false;
-    for(int i = 2; i*i<=n; i++)
-        if(n%i == 0)
-            return false;
-    return true;
+`int fibonacci_it(int n){
+    int a=1, b=1,i=2;
+    while(i++ < n){
+        a+=b;
+        b=a-b;
+    }
+    return a;
 }`
     },
     {
