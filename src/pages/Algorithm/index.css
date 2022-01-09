@@ -15,3 +15,11 @@
     max-width: 800px;
     max-height: fit-content;
 }
+.algorithm__header{
+    color: var(--primary-text);
+    font-size: 36px;
+}
+.algorithm__text{
+    font-size: 16px;
+    color: var(--secondary-text);
+}

@@ -1,10 +1,13 @@
+.codesnippet{
+    overflow: hidden;
+    border: 1px solid var(--accent);
+    border-radius: 0px 0px 20px 20px; 
+    background: var(--secondary-color);
+}
 .hljs {
     display: block;
-    border: 1px solid var(--accent);
-    border-radius: 20px;
     width: 100%;
     overflow-x: auto;
-    background: var(--secondary-color);
     color: #c5c8c6;
     padding: 20px;
     font-family: 'Fira Code', monospace;
