@@ -4,7 +4,6 @@ import CodeSnippet from "../CodeSnippet";
 
 const CodeSnippets = ({ codeSnippets }) => {
     const [tabIndex, setTabIndex] = useState(0);
-
     return (
         <div className="codesnippets">
             <div className="codesnippets__tabs">
@@ -12,7 +11,7 @@ const CodeSnippets = ({ codeSnippets }) => {
                     <button className="codesnippets__tab" key={index} onClick={()=>setTabIndex(index)}>{el.lang}</button>
                 ))}
             </div>
-            <div className="codesnippets__snippets">
+            <div className="codesnippets__snippets" >
                 {codeSnippets.map((codeSnippet,index) => (
                     <CodeSnippet tabIndex={tabIndex} snippetKey={index} key={index} className={`language-${codeSnippet.lang}`}>{codeSnippet.code}</CodeSnippet>
                 ))} 
