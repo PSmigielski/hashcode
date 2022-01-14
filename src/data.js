@@ -148,13 +148,13 @@ const code = {
                     lang: "python",
                     code:
 `def nwd_it_n(a, b):
-if b != 0:
-    while a != b:
-        if a > b:
-            a-=b
-        else: 
-            b-=a
-return a`
+    if b != 0:
+        while a != b:
+            if a > b:
+                a-=b
+            else: 
+                b-=a
+    return a`
                 }
             ]
         },
@@ -181,13 +181,13 @@ return a`
                     lang:"python",
                     code:
 `def nwd_rek_n(a, b):
-if b != 0:
-    if a != b:
-        if a > b:
-            return nwd_rek_n(a-b, b)
-        else:
-            return nwd_rek_n(a, b-a)
-return a`
+    if b != 0:
+        if a != b:
+            if a > b:
+                return nwd_rek_n(a-b, b)
+            else:
+                return nwd_rek_n(a, b-a)
+    return a`
                 }
             ]
         }
