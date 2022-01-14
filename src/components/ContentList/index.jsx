@@ -3,7 +3,7 @@ import "./index.css";
 const ContentList = ({data}) => {
     return (
         <ul className="contentList">
-            {data.map((el) => (<li className="contentList__element">{el}</li>))}
+            {data.map((el, index) => (<li key={index} className="contentList__element">{el}</li>))}
         </ul>
     )
 }
