@@ -32,6 +32,9 @@
 .codesnippets_snippets{
     width: 100%;
 }
+.codesnippets__tab--active{
+    color: var(--cta);
+}
 .codesnippets__tab:not(.codesnippets__tab:last-child) {
     border-right: none
 }

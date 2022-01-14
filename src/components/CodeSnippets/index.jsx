@@ -8,7 +8,7 @@ const CodeSnippets = ({ codeSnippets }) => {
         <div className="codesnippets">
             <div className="codesnippets__tabs">
                 {codeSnippets.map((el,index) => (
-                    <button className="codesnippets__tab" key={index} onClick={()=>setTabIndex(index)}>{el.lang}</button>
+                    <button className={index === tabIndex ? "codesnippets__tab codesnippets__tab--active" : "codesnippets__tab"} key={index} onClick={()=>setTabIndex(index)}>{el.lang}</button>
                 ))}
             </div>
             <div className="codesnippets__snippets" >

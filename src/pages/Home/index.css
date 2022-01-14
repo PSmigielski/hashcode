@@ -8,7 +8,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .home__content{
     width: 80%;
