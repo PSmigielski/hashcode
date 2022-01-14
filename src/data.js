@@ -853,7 +853,7 @@ const pages = [
         to: "schemat-hornera",
         data: [
             {
-                header: "schemat hornera",
+                header: "Schemat hornera",
                 text: "Schemat Hornera – sposób obliczania wartości wielomianu dla danej wartości argumentu wykorzystujący minimalną liczbę mnożeń, jest to również algorytm dzielenia wielomianu W (x)  przez dwumian x − c. "
             },
             {
