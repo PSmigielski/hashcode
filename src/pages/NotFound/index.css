@@ -1,0 +1,45 @@
+.NotFound{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+.NotFound__header{
+    font-size: 288px;
+    color: var(--cta);
+    line-height: 240px;
+}
+.NotFound__errorName{
+    color: var(--primary-text);
+    font-size: 72px;
+    margin: 10px 0px 20px 0px;
+}
+.NotFound__button{
+    font-family: "Poppins", sans-serif;
+    width: 330px;
+    height: 72px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--cta);
+}
+
+@media screen and (max-width: 724px) {
+    .NotFound__header{
+        font-size: 144px;
+        line-height: 120px;
+    }
+    .NotFound__errorName{
+        font-size: 36px;
+    }
+    .NotFound__button{
+        width: 256px;
+        height: 56px;
+        font-size: 16px;
+    }
+}

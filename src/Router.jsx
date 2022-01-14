@@ -1,13 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import App from "./pages/App";
+import Algorithm from "./pages/Algorithm";
+import AppShell from "./pages/AppShell";
 import Home from './pages/Home';
 
 function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route path="/" element={<AppShell />}>
           <Route index element={<Home />}/>
+          <Route path="algorithms/:algoId" element={<Algorithm/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
