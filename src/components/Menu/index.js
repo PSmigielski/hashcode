@@ -1,8 +1,11 @@
-import { useContext } from "react";
-import { NavLink } from "react-router-dom";
-import { getPages } from "../../data";
-import { UIContext } from "../../context/UIContext";
 import "./index.css";
+
+import React, { useContext } from "react";
+import { NavLink } from "react-router-dom";
+
+import { UIContext } from "../../context/UIContext";
+import { getPages } from "../../data";
+
 const Menu = () => {
     const pages= getPages();
     const uiContext = useContext(UIContext);

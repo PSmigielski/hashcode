@@ -1,10 +1,12 @@
-import { useContext } from "react";
+import "./index.css";
+
+import React, { useContext } from "react";
 import { Outlet } from "react-router-dom";
+
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import Navbar from "../../components/Navbar";
 import { UIContext } from "../../context/UIContext";
-import "./index.css";
 
 const AppShell = () => {
     const uiContext = useContext(UIContext);

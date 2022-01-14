@@ -1,6 +1,9 @@
+/* eslint-disable react/prop-types */
 import "./index.css";
+
 import hljs from "highlight.js";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
+
 const CodeSnippet = ({tabIndex,snippetKey,children, className}) => {
     const invisible = {
         display: "none",

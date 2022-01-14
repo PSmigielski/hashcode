@@ -1,6 +1,10 @@
-import { Link } from "react-router-dom";
-import ContentList from "../../components/ContentList";
 import "./index.css";
+
+import React from "react";
+import { Link } from "react-router-dom";
+
+import ContentList from "../../components/ContentList";
+
 const Home = () => {
     return (
         <div className="home">

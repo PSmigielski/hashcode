@@ -1,12 +1,14 @@
-import { useContext, useEffect, useState } from "react";
+import "./index.css";
+
+import React, { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
+
 import CodeSnippet from "../../components/CodeSnippet";
 import CodeSnippets from "../../components/CodeSnippets";
-import Loader from "../../components/Loader";
-import { getPages } from "../../data";
-import {UIContext} from "../../context/UIContext";
-import "./index.css";
 import ContentList from "../../components/ContentList";
+import Loader from "../../components/Loader";
+import {UIContext} from "../../context/UIContext";
+import { getPages } from "../../data";
 
 const Algorithm = () => {
     let navigate = useNavigate();

@@ -1,6 +1,9 @@
-import { useContext } from "react";
-import { UIContext } from "../../context/UIContext";
 import "./index.css"
+
+import React, { useContext } from "react";
+
+import { UIContext } from "../../context/UIContext";
+
 const Hamburger = () => {
     const uiContext = useContext(UIContext);
     return (

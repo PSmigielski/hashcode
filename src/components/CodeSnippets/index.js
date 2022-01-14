@@ -1,5 +1,8 @@
+/* eslint-disable react/prop-types */
 import "./index.css";
-import { useState } from "react";
+
+import React, { useState } from "react";
+
 import CodeSnippet from "../CodeSnippet";
 
 const CodeSnippets = ({ codeSnippets }) => {
