@@ -19,14 +19,14 @@ const code = {
                     lang: "python",
                     code: 
 `def fibonacci_it(n):
-a=1
-b=1
-i=2
-while i < n:
-    a+=b;
-    b=a-b;
-    i+=1
-return a`
+    a=1
+    b=1
+    i=2
+    while i < n:
+        a+=b;
+        b=a-b;
+        i+=1
+    return a`
                 }
 
             ]
@@ -288,13 +288,13 @@ def pow_szybkie(p, n):
                 {
                     lang: "cpp",
                     code: 
-    `bool pierwsza_o(int n){
-        if(n < 2) return false;
-        for(int i = 2; i*i<=n; i++)
-            if(n%i == 0)
-                return false;
-        return true;
-    }`
+`bool pierwsza_o(int n){
+    if(n < 2) return false;
+    for(int i = 2; i*i<=n; i++)
+        if(n%i == 0)
+            return false;
+    return true;
+}`
                 },
                 {
                     lang: "python",
@@ -792,7 +792,7 @@ const pages = [
     },
     {
         name: "Liczba pierwsza",
-        to: "liczba pierwsza",
+        to: "liczba_pierwsza",
         data: [
             {
                 header: "Liczba pierwsza",
