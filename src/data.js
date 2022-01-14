@@ -45,7 +45,7 @@ return a`
                     lang:"python",
                     code:
 `def fibonacci_rek(n):
-return 1 if n < 3 else fibonacci_rek(n - 1) + fibonacci_rek(n - 2)`
+    return 1 if n < 3 else fibonacci_rek(n - 1) + fibonacci_rek(n - 2)`
                 }  
             ]
         }
@@ -72,13 +72,13 @@ return 1 if n < 3 else fibonacci_rek(n - 1) + fibonacci_rek(n - 2)`
                     lang: "python",
                     code: 
 `def doskonala(n):
-i = 1 
-sum = 0
-while i < n:
-    if n % i == 0:
-        sum += i
-    i+=1
-return n == sum`
+    i = 1 
+    sum = 0
+    while i < n:
+        if n % i == 0:
+            sum += i
+        i+=1
+    return n == sum`
                 }
             ]
     },
@@ -102,11 +102,11 @@ return n == sum`
                     lang:"python",
                     code:
 `def nwd_it_o(a, b):
-while b != 0:
-    r=a%b
-    a=b
-    b=r
-return a`
+    while b != 0:
+        r=a%b
+        a=b
+        b=r
+    return a`
                 }
             ]
         },
@@ -124,7 +124,7 @@ return a`
                     lang:"python",
                     code:
 `def nwd_rek_o(a, b):
-return nwd_rek_o(b, a%b) if b != 0 else a`
+    return nwd_rek_o(b, a%b) if b != 0 else a`
                 }
             ]
         },
@@ -384,12 +384,11 @@ st - stopień swielomianu;
 x - współczynnik wielomianu;
 w[] - współczynniki wielomianu;
 */
-int horner_it(int st, int x, int W[])
-{
-int wynik = W[0];
-for (int k = 1; k <= st; k++)
-    wynik = wynik * x + W[k];
-return wynik;
+int horner_it(int st, int x, int W[]){
+    int wynik = W[0];
+    for (int k = 1; k <= st; k++)
+        wynik = wynik * x + W[k];
+    return wynik;
 }`
                 },
                 {
@@ -419,11 +418,10 @@ st - stopień swielomianu;
 x - współczynnik wielomianu;
 w[] - współczynniki wielomianu;
 */
-int horner_rek(int st, int x, int W[])
-{
-if (st == 0)
-    return W[0];
-return x * horner_rek(st - 1, x, W) + W[st];
+int horner_rek(int st, int x, int W[]){
+    if (st == 0)
+        return W[0];
+    return x * horner_rek(st - 1, x, W) + W[st];
 }`
                 },
                 {
@@ -462,13 +460,13 @@ def horner_rek(st, x, W):
                         lang: "python",
                         code: 
 `def silnia_it(n):
-if n < 2:
-    return 1
-s=1
-while 0 < n:
-    s*=n
-    n-=1
-return s`
+    if n < 2:
+        return 1
+    s=1
+    while 0 < n:
+        s*=n
+        n-=1
+    return s`
                     }
                 ]
         },
@@ -486,7 +484,7 @@ return s`
                     lang: "python",
                     code: 
 `def silnia_rek(n):
-return 1 if n < 2 else n * silnia_rek(n - 1);`
+    return 1 if n < 2 else n * silnia_rek(n - 1);`
                 }
             ]
         }
