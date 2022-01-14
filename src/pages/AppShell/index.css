@@ -23,8 +23,8 @@
 }
 .app__menu{
     width: 20%;
-    min-width: 250px;
-    max-width: 300px;
+    min-width: 300px;
+    max-width: 350px;
     height: calc(100% - 96px);
     position: absolute;
     bottom: 0px;

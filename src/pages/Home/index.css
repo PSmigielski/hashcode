@@ -8,7 +8,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .home__content{
     width: 80%;
@@ -16,11 +17,33 @@
     max-width: 800px;
     max-height: fit-content;
 }
+.home__header{
+    font-size: 32px;
+    color: var(--primary-text);
+}
+.home__button{
+    font-family: "Poppins", sans-serif;
+    width: 200px;
+    height: 52px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--cta);
+    margin-top: 20px;
+}
 @media screen and (max-width: 1548px) {
     .home{
         width: 100%;
     }
     .home__content{
         max-width: 800px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .home__header{
+        font-size: 24px;
+        color: var(--primary-text);
     }
 }

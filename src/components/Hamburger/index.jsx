@@ -5,8 +5,8 @@ const Hamburger = () => {
     const uiContext = useContext(UIContext);
     return (
         <button className={uiContext.isMenuOpen ? "hamburger hamburger--active" : "hamburger"} onClick={() => {uiContext.setIsMenuOpen(!uiContext.isMenuOpen)}}>
-            <span class="hamburger__box">
-                <span class="hamburger__inner"></span>
+            <span className="hamburger__box">
+                <span className="hamburger__inner"></span>
             </span>
         </button>
     );
